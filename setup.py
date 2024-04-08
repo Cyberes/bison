@@ -33,7 +33,8 @@ setup(
     include_package_data=True,
     python_requires=">=3.6",
     install_requires=[
-        'pyyaml>=5.4'
+        'pyyaml>=5.4',
+        'mergdeep==1.3.4'
     ],
     zip_safe=False,
     classifiers=[
